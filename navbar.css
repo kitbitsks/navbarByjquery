@@ -1,0 +1,124 @@
+.nvv{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #E7E7E7;
+    border: none;
+    color: grey;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: 'Poiret One', cursive;
+	font-family: 'Righteous', cursive;
+	font-family: 'Permanent Marker', cursive;    cursor: pointer;
+	width:100%;
+	border-radius: 0.3em;
+	padding: 0.1em 0.1em;
+	margin: auto;
+}
+
+.dropthis{
+	display: none;
+	position: relative;
+	background-color: #E7E7E7;
+    border: none;
+    color: grey;
+    text-align: left;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Poiret One', cursive;
+	font-family: 'Righteous', cursive;
+	font-family: 'Permanent Marker', cursive;    
+	cursor: pointer;
+	width:100%;
+	border-radius: 0.3em;
+	padding: 0.1em 0.1em;
+	margin: auto;
+   
+}
+
+.item {
+	width: auto;
+}
+
+
+.green {
+	background: green
+}
+
+#iconhelp{
+	display: none;
+	font-size: 1.5em;
+}
+
+.btn{
+
+    border-color: green;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    font-family: 'Poiret One', cursive;
+	font-family: 'Righteous', cursive;
+	font-family: 'Permanent Marker', cursive;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=textfield] {
+width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Poiret One', cursive;
+	font-family: 'Righteous', cursive;
+	font-family: 'Permanent Marker', cursive;
+}
+
+#dc {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    cursor:pointer;
+}
+
+#dtt {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    cursor:pointer;
+}
+
+@media screen and (max-width: 680px){
+	#h, #l,#d, #ds, #t, #b{
+		display:none;
+	}
+	#n{
+		font-size: 1.5em;
+	}
+	#iconhelp{
+		display: block;
+	}
+	.nvv{
+		justify-content: space-between;
+		flex-direction: row;
+		flex-wrap: wrap;
+
+	}
+}
+
+}
